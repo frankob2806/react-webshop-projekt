@@ -1,0 +1,41 @@
+*{margin: 0px; padding: 0px;}
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body{font-family: "Lato", sans-serif; font-size: 22px; background-color: white}
+
+.bg-header{background: #88bdce;}
+
+.headerWrapper .top-strip{padding: 8px 0px; }
+.headerWrapper .top-strip p{color: #fff; font-size: 20px;}
+
+.headerWrapper .header{width: 100%; height: auto; padding: 10px 0px;}
+.logoWrapper img{width: 100%;}
+
+.headerWrapper .header .part2 .countryDrop{width: 150px; height: 60px; min-width: 150px; background-color: #88bdce; font-size: 16px; color: black; border: 1px solid black;}
+
+.header .headerSearch{width: 40%; height: 60px; background: #88bdce; padding: 10px; position: relative; border-radius: 15px; border: 1px solid black;}
+.header .headerSearch input{background: white; outline: none; font-size: 16px; color: black; width: 100%; height: 40px; border: 0px; padding: 0px 20px;}
+
+.header .headerSearch button{position: absolute; top: 10px; right: 10px; z-index: 100; min-width: 40px; height: 40px; width: 40px; border-radius: 100%; color:black; background: #88bdce; border: 1px solid black;}
+.header .headerSearch button svg{font-size: 16px;}
+
+.header .part3 .circle{align-items: center; justify-content: center; min-width: 50px; height: 50px; width: 50px; border-radius: 50%; border: 1px solid black; color: black; background: #88bdce;}
+.header .part3 .cicle svg{font-size: 30px;}
+
+.cartTab .price{font-size: 16px; color: black}
+.cartTab button{background: white;}
+.cartTab button svg{color: black}
+.cartTab .count{position: absolute; top:0px; right: 0; background: #88bdce; border-radius: 50%; color: black; width: 25px; height: 25px;}
+
+.nav .allCatTab{background: #88bdce; padding: 8px 20px; border-radius: 30px;}
+.nav .allCatTab *{color: white;}
+.nav .allCatTab:hover{background: #88bdce;}
+.nav .allCatTab .text{font-weight: 600;}
+
+.nav .allCatTab .icon1 svg{font-size: 50px;}
+.nav .allCatTab .icon2 svg{font-size: 20px;}
+
+.nav .navPart2 ul{margin-bottom: 0px;}
+.nav .navPart2 ul li a{font-size: 16px; font-weight: 600; text-decoration: none; color: black;}
+
+.Body img{width: 97%; position: absolute; top: 50px; right: 0px; left: 15px;}
